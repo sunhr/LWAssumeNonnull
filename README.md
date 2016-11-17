@@ -2,10 +2,15 @@
 [![Build Status](https://travis-ci.org/sunhr/LWAssumeNonnull.svg?branch=master)](https://travis-ci.org/sunhr/LWAssumeNonnull)
 
 
-Xcode 8+ extension for adding `NS_ASSUME_NONNULL_BEGIN` and `NS_ASSUME_NONNULL_END` marco automatically
+Xcode 8+ extension for adding `NS_ASSUME_NONNULL_BEGIN` and `NS_ASSUME_NONNULL_END` macros automatically
 
 ## Feature
+* Add `NS_ASSUME_NONNULL_BEGIN` and `NS_ASSUME_NONNULL_END` macros in your `.h` files
 ![image](https://raw.githubusercontent.com/sunhr/LWAssumeNonnull/master/res/feature1.gif)
+
+
+* Add default categories in your `.m` and `.mm` files
+![image](https://raw.githubusercontent.com/sunhr/LWAssumeNonnull/master/res/feature2.gif)
 
 ## Building
 0. Setup Code Signing for Target `LWAssumeNonnullContainer` and `LWAssumeNonnull` by applying your own Team

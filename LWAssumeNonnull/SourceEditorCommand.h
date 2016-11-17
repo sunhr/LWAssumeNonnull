@@ -8,6 +8,10 @@
 
 #import <XcodeKit/XcodeKit.h>
 
+typedef NS_ENUM(NSInteger, LWAssumeNonnullErrorType) {
+    LWAssumeNonnullErrorTypeUnsupportedFileType = 1,
+};
+
 @interface SourceEditorCommand : NSObject <XCSourceEditorCommand>
 
 @end
