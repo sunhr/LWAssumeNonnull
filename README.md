@@ -6,10 +6,12 @@ Xcode 8+ extension for adding `NS_ASSUME_NONNULL_BEGIN` and `NS_ASSUME_NONNULL_E
 
 ## Feature
 * Add `NS_ASSUME_NONNULL_BEGIN` and `NS_ASSUME_NONNULL_END` macros in your `.h` files
+
 ![image](https://raw.githubusercontent.com/sunhr/LWAssumeNonnull/master/res/feature1.gif)
 
 
 * Add default categories in your `.m` and `.mm` files
+
 ![image](https://raw.githubusercontent.com/sunhr/LWAssumeNonnull/master/res/feature2.gif)
 
 ## Building
