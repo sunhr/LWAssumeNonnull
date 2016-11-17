@@ -5,7 +5,7 @@
 Xcode 8+ extension for adding `NS_ASSUME_NONNULL_BEGIN` and `NS_ASSUME_NONNULL_END` marco automatically
 
 ## Feature
-
+![image](https://raw.githubusercontent.com/sunhr/LWAssumeNonnull/master/res/feature1.gif)
 
 ## Building
 0. Setup Code Signing for Target `LWAssumeNonnullContainer` and `LWAssumeNonnull` by applying your own Team

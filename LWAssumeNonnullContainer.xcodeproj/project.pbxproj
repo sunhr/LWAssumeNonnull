@@ -197,10 +197,12 @@
 				TargetAttributes = {
 					36B749C51DDD968F00A4AA94 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7A3B8A26WB;
 						ProvisioningStyle = Automatic;
 					};
 					36B749DF1DDD96A500A4AA94 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7A3B8A26WB;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -375,7 +377,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7A3B8A26WB;
 				INFOPLIST_FILE = LWAssumeNonnullContainer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laowang.LWAssumeNonnullContainer;
@@ -387,7 +391,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7A3B8A26WB;
 				INFOPLIST_FILE = LWAssumeNonnullContainer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.laowang.LWAssumeNonnullContainer;
@@ -446,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LWAssumeNonnullContainer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -458,7 +465,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = LWAssumeNonnull/LWAssumeNonnull.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7A3B8A26WB;
 				INFOPLIST_FILE = LWAssumeNonnull/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -472,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = LWAssumeNonnull/LWAssumeNonnull.entitlements;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = LWAssumeNonnull/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
@@ -486,7 +496,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = LWAssumeNonnull/LWAssumeNonnull.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7A3B8A26WB;
 				INFOPLIST_FILE = LWAssumeNonnull/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -517,6 +529,7 @@
 				36B749D91DDD968F00A4AA94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36B749F11DDD96A500A4AA94 /* Build configuration list for PBXNativeTarget "LWAssumeNonnull" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				36B749F41DDD96A500A4AA94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
